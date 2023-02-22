@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+    border: 5px solid rgb(63, 190, 71);
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    max-width: 600px;
+    min-height: 450px;
+}
+
+a{
+    color: rgb(63, 190, 71);
+}
+
+h1{
+    font-style: italic;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    font-family: sans-serif;
+    color: black
+}
+
+p{
+    color: white;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    float: right;
+    margin-left: 30px;
+}
+
+section{
+    text-align: left;
+}
+
+ul{
+    padding: 0;
+}
