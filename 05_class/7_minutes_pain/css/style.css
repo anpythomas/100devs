@@ -1,0 +1,19 @@
+/* Asterik selects everything on page */
+*{
+    /* this tells browser to ignore borders for box model */
+    box-sizing: border-box;
+}
+
+header, footer{
+    border: 1px solid black;
+    height: 100px;
+    /* both means both left and right */
+    clear: both;
+}
+
+section{
+    height: 200px;
+    border: 1px solid black;
+    width: 33.3333%;
+    float: left;
+}
