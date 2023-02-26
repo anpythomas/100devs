@@ -37,33 +37,27 @@ footer {
 
 }
 
-section{
-    border: 2px solid black;
+body > section{
     height: 300px;
-    text-align: center;
-    padding: 30px;
-    margin: 20px;
+    background-image: url(froggy-bg-img.png);
 }
 
-section{
-    background-color: aqua;
+body > section > section{
+    border: 1px solid white;
+    width: 200px;
+    margin: 50px 0 0 50px;
 }
 
-section{
-    background: green;
+h1, p{
+    color: white;
 }
-section{
-    height: 600px;
+/* To display text horizontally */
+li{
+    display: inline-block;
 }
-
-section > p{
-    font-size: 2px;
+a{
+    color: white;
 }
-
-section > p + p{
-    font-size: 40px;
-}
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
