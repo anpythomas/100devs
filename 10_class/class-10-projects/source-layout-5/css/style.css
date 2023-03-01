@@ -162,7 +162,11 @@ body > header + section > section > div > form > input + input{
     font-size: 12px;
 }
 
-
+@media (max-width: 800px) {
+    html {
+        font-size: 8px;
+    }
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
