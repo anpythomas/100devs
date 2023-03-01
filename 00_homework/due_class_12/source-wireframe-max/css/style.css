@@ -31,7 +31,7 @@ body {
     height: 100%;
     margin: 5% auto;
     background-color: white;
-    border: 1px solid black;
+    /* border: .5px solid black; */
 }
 
 
@@ -40,7 +40,7 @@ body {
 /*******************************************/
 header {
     height: 70px;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid lightgrey;
 }
 
 footer {
@@ -56,7 +56,7 @@ header > img {
     width: 30px;
     background: white;
     float: left;
-    margin-top: 10px;
+    margin: 10px 0 0 8px;
 }
 
 h2{
@@ -64,7 +64,7 @@ h2{
 }
 
 .header-h1{
-    padding: 12px 0 0 100px;
+    padding: 14px 0 0 100px;
     width: 100px;
     text-align: center;
 }
@@ -75,7 +75,8 @@ h2{
 }
 
 .laptop-img {
-    width: 271px;
+    width: 100%;
+    background-color: rgba(246, 249, 252);
 }
 
 .textForm{
@@ -98,4 +99,18 @@ h2{
 body > section p{
     font-size: 1.25rem;
     margin-top: 20px;
+}
+
+.div-p{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    padding: 20px 0;
+    font-size: 1.42rem;
+    text-align: justify;
+    
+}
+
+.divPMain{
+    background: rgba(246, 249, 252);
 }
