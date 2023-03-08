@@ -1,0 +1,9 @@
+TODO: plan out networking for next week
+TODO: read https://javascript.info/function-basics and complete tasks at end
+
+
+//Completed tasks:
+1 - read https://javascript.info/variables and complete tasks at end
+2 - youtube picker add another event listener to youtube chair color changer, then erase and keep practicing until you don't need to look up answer.
+3 - not so great calculator - add event listener, then erase and keep practicing until you don't need to look up answer.
+4 - what day it is erase and keep practicing until you don't need to look up answer.
