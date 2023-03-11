@@ -10,7 +10,11 @@
 
     // TURN OFF AUTOCOMPLETION
     // Controls if quick suggestions should show up or not while typing
-    "editor.quickSuggestions": false,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
 
     // Controls the delay in ms after which quick suggestions will show up
     "editor.quickSuggestionsDelay": 90,
@@ -19,7 +23,7 @@
     "editor.parameterHints": false,
 
     // Controls if the editor should automatically close brackets after opening them
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
 
     // Controls if the editor should automatically format the line after typing
     "editor.formatOnType": false,
@@ -28,6 +32,8 @@
     "editor.suggestOnTriggerCharacters": false,
 
     // Controls if suggestions should be accepted 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
-    "editor.acceptSuggestionOnEnter": "off"
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never"
 }
 
